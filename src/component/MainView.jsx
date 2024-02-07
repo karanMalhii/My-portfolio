@@ -7,7 +7,7 @@ export default function MainView() {
         <div class="flex flex-col justify-center px-4 py-10 lg:px-6">
           <h1 class="mt-8 max-w-4xl text-3xl font-bold tracking-tight text-white md:text-4xl lg:text-6xl">
             I'm karandeep singh
-            <div class="text-5xl font-bold mt-2 bg-gradient-to-r from-orange-600 to-amber-300 text-transparent bg-clip-text">
+            <div class="text-5xl font-bold mt-2 bg-gradient-to-r from-orange-600 to-amber-300 text-transparent bg-clip-text w-fit">
               Frontend Developer   
             </div>
           </h1>

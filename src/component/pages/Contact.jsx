@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function Contact() {
   return (
-    <div>
+    
         <section id="contact" className="w-full py-12 md:py-8 lg:py-8 bg-slate-900 text-white">
             <div className="container px-4 md:px-6">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-orange-600 to-amber-200 text-transparent bg-clip-text">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-t from-orange-700 to-amber-300 text-transparent bg-clip-text w-fit">
                 Contact Me
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
@@ -27,6 +27,6 @@ export default function Contact() {
               </div>
             </div>
           </section>
-    </div>
+   
   )
 }

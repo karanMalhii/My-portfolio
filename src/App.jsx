@@ -10,18 +10,21 @@ import Footer from "./component/pages/Footer";
 
 export default function App() {
   return (
-    <div>
+    <div className="bg-slate-900">
       <Navbar />
       <div className="flex flex-col min-h-screen">
         <main className="flex-1">
           <MainView />
-          <About />
-          <Skills />
-          <Experience />
-          <Projects />
-          <Contact />
+
+          <div className="max-w-7xl mx-auto">
+            <About />
+            <Skills />
+            <Experience />
+            <Projects />
+            <Contact />
+            <Footer />
+          </div>
         </main>
-        <Footer />
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ export default function Experience() {
     <div>
          <section id="experience" className="w-full py-12 md:py-2 lg:py-8 bg-slate-900 text-white">
             <div className="container px-4 md:px-6">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-orange-600 to-amber-200 text-transparent bg-clip-text">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-l from-orange-700 to-amber-300 text-transparent bg-clip-text w-fit">
                 Work Experience
               </h2>
               <div className="mt-4">

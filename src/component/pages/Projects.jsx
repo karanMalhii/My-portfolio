@@ -8,7 +8,7 @@ export default function Projects() {
             className="w-full  md:py-4 lg:py-4 dark:bg-gray-800 bg-slate-900 text-white"
           >
             <div className="container px-4 md:px-6">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-orange-600 to-amber-200 text-transparent bg-clip-text">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-b from-orange-700 to-amber-300 text-transparent bg-clip-text w-fit h-14 pr-2">
                 Notable Projects
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div>
+    
       <footer className="flex flex-col gap-2 sm:flex-row py-6 w-full shrink-0 items-center px-4 md:px-6 border-t bg-slate-900 text-white">
         <p className="text-xs text-gray-500 dark:text-gray-400">
           © 2024 Developer Portfolio. All rights reserved.
@@ -16,6 +16,6 @@ export default function Footer() {
           </a>
         </nav>
       </footer>
-    </div>
+ 
   );
 }
