@@ -5,9 +5,9 @@ export default function Projects() {
     <div>
       <section
         id="projects"
-        className="w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900"
+        className="w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900 pl-8"
       >
-        <div className="container ml-14 px-4 md:px-6">
+        <div className="container px-4 md:px-6">
           <h1 className="text-5xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-r from-orange-600 to-amber-500 text-transparent bg-clip-text">
             Notable Projects
           </h1>

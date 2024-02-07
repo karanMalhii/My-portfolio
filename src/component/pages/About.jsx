@@ -2,8 +2,8 @@ import React from "react";
 
 export default function About() {
   return (
-    <section id="about" className="w-full py-8 md:py-8 lg:py-8 bg-slate-900 ">
-      <div className="container tracking-tight px-4 md:px-6 ml-16">
+    <section id="about" className="w-full py-8 md:py-8 lg:py-8 bg-slate-900 pl-8">
+      <div className="container tracking-tight px-4 md:px-6 ">
         <h1 className=" text-5xl font-bold mt-2 bg-gradient-to-r from-orange-600 to-amber-500 text-transparent bg-clip-text">
           About Me
         </h1>

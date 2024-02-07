@@ -5,9 +5,9 @@ export default function Experience() {
     <div>
       <section
         id="experience"
-        className="w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900"
+        className="pl-8 w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900"
       >
-        <div className="  container px-4 ml-14 md:px-6 ">
+        <div className="  container px-4 md:px-6 ">
           <h2 className="text-3xl font-bold  sm:text-5xl bg-gradient-to-r from-orange-600 to-amber-500 text-transparent bg-clip-text">
             Work Experience
           </h2>
