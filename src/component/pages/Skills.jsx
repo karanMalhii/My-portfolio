@@ -5,10 +5,10 @@ export default function Skills() {
     <div>
       <section
         id="skills"
-        className="pl-8 w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900"
+        className=" w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900"
       >
         <div className="container px-4 md:px-6">
-          <h2 className=" text-4xl font-bold tracking-tighter sm:text-5xl  bg-gradient-to-r from-orange-600 to-amber-500 text-transparent bg-clip-text">
+          <h2 className=" text-4xl font-bold tracking-tighter sm:text-5xl  bg-gradient-to-r from-orange-600 to-amber-500 text-transparent bg-clip-text w-fit">
             Skills &amp; Expertise
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
