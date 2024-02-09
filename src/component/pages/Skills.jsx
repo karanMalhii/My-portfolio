@@ -11,8 +11,6 @@ import {
   SiBootstrap,
 } from "react-icons/si";
 
-import { AiFillTool } from "react-icons/ai"; // Example tool icon for Agile/Scrum
-
 export default function Skills() {
   return (
     <div>
@@ -25,7 +23,9 @@ export default function Skills() {
             Skills &amp; Expertise
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-4">
-            <SkillIcon icon={<SiHtml5 />} text="Html" />
+            <SkillIcon text="Html">
+              <SiHtml5 />
+            </SkillIcon>
             <SkillIcon icon={<SiBootstrap />} text="Bootstrap" />
             <SkillIcon icon={<SiJavascript />} text="JavaScript" />
             <SkillIcon icon={<SiReact />} text="React" />
@@ -41,10 +41,9 @@ export default function Skills() {
 }
 
 // SkillIcon component to display each skill/language with its corresponding icon
-const SkillIcon = ({ icon: Icon, text }) => (
+const SkillIcon = ({ icon, text, children }) => (
   <div className="flex items-center mt-1  ">
-    <span className="mr-2 text-2xl ">{Icon}</span>
-
+    <span className="mr-2 text-2xl ">{children}</span>
     <span>{text}</span>
   </div>
 );
