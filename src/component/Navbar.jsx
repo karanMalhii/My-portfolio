@@ -1,11 +1,12 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
     <div>
-      <div class=" w-full bg-slate-900 fixed top-0 z-10 bg-transparent backdrop-blur-sm pb-2">
-        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
-          <div class="inline-flex items-center space-x-2">
+      <div className=" w-full bg-slate-900/60 fixed top-0 z-10  backdrop-blur-sm pb-2">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
+          <div className="inline-flex items-center space-x-2">
             <span>
               <svg
                 width="40"
@@ -20,45 +21,51 @@ export default function Navbar() {
                 ></path>
               </svg>
             </span>
-            <span class="font-bold text-lg text-white">DevUI</span>
+            <span className="font-bold text-lg text-white">DevUI</span>
           </div>
-          <div class="hidden lg:block">
-            <ul class="inline-flex space-x-8">
+          <div className="hidden lg:block">
+            <ul className="inline-flex space-x-8">
               <li>
-                <a
-                  href="#"
-                  class="text-lg font-semibold text-white hover:text-gray-100"
-                >
-                  Home
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  class="text-lg font-semibold text-white hover:text-gray-100"
+                <Link
+                  className="text-lg font-semibold text-white hover:text-gray-100"
+                  to="/about"
                 >
                   About
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#"
-                  class="text-lg font-semibold text-white hover:text-gray-100"
+                <Link
+                  className="text-lg font-semibold text-white hover:text-gray-100"
+                  to="/skills"
                 >
-                  Contact
-                </a>
+                  Skills
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-lg font-semibold text-white hover:text-gray-100"
+                  to="/project"
+                >
+                  Project
+                </Link>
+              </li>
+              <li>
+                <Link
+                  className="text-lg font-semibold text-white hover:text-gray-100"
+                  to="/contact"
+                >Contact</Link>
               </li>
             </ul>
           </div>
-          <div class="hidden lg:block">
+          <div className="hidden lg:block">
             <button
               type="button"
-              class="rounded-md  bg-gradient-to-r from-orange-600 to-amber-300 px-2.5 py-2.5 text-lg font-semibold text-black shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
+              className="rounded-md  bg-gradient-to-r from-orange-600 to-amber-300 px-2.5 py-2.5 text-md font-semibold text-black shadow-sm hover:bg-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Download CV
             </button>
           </div>
-          <div class="lg:hidden">
+          <div className="lg:hidden">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="24"
@@ -66,10 +73,10 @@ export default function Navbar() {
               viewBox="0 0 24 24"
               fill="none"
               stroke="currentColor"
-              stroke-width="2"
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              class="h-6 w-6 cursor-pointer"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              className="h-6 w-6 cursor-pointer"
             >
               <line x1="4" y1="12" x2="20" y2="12"></line>
               <line x1="4" y1="6" x2="20" y2="6"></line>
