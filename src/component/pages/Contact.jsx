@@ -1,13 +1,19 @@
-import React from 'react'
+import React from "react";
 
 export default function Contact() {
   return (
     <div>
       <section
         id="contact"
-        className="w-full py-10 md:py-12 lg:py-8 mx-auto  bg-slate-900  text-white  "
+        className={`w-full py-8 md:py-8 lg:py-8  text-white bg-slate-900 ${
+          location.pathname === "/contact" && "h-[90vh] "
+        }`}
       >
-        <div className="container  px-4 md:px-6">
+        <div
+          className={`px-4 md:px-6 ${
+            location.pathname === "/contact" && "pt-24"
+          }`}
+        >
           <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-b from-orange-600 to-amber-500 text-transparent bg-clip-text w-fit">
             Contact Me
           </h2>
@@ -15,7 +21,7 @@ export default function Contact() {
             <div>
               <h3 className="text-xl font-bold">Get In Touch</h3>
               <p className="mt-2">
-                The best way to reach me is via email: me@example.com
+                The best way to reach me is via email: Bikramjeet@gmail.com
               </p>
               <p className="mt-2">
                 You can also follow me on Twitter:{" "}
