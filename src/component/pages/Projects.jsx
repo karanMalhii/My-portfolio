@@ -5,9 +5,14 @@ export default function Projects() {
     <div>
          <section
             id="projects"
-            className="w-full  md:py-4 lg:py-4 dark:bg-gray-800 bg-slate-900 text-white"
+            className={`w-full py-8 md:py-8 lg:py-8 bg-slate-900 text-white
+            ${location.pathname === "/project" && "h-[90vh]"}`}
           >
-            <div className="container px-4 md:px-6">
+             <div
+          className={` px-4 md:px-6 ${
+            location.pathname === "/project" && "pt-24"
+          }`}
+        >
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl bg-gradient-to-b from-orange-700 to-amber-300 text-transparent bg-clip-text w-fit h-14 pr-2">
                 Notable Projects
               </h2>
