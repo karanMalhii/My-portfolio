@@ -49,15 +49,9 @@ export default function MainView() {
                 <div className="overflow-hidden h-12 rounded-full border-2 border-gray-400/50">
                   <img
                     alt="Karandeep Singh"
-                    loading="lazy"
                     width="40"
                     height="40"
-                    decoding="async"
-                    data-nimg="1"
-
-                    
-                    
-                    src="/public/profilepic.png"
+                    src="profilepic.png"
                   />{" "}
                 </div>
                 <div className="flex flex-col justify-center">
