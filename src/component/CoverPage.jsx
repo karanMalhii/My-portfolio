@@ -12,7 +12,6 @@ export default function CoverPage() {
     <div>
    
       <MainView />
-      <About />
       <Experience />
       <Skills />
       <Projects />
