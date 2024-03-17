@@ -57,7 +57,7 @@ export default function MainView() {
 
                     
                     
-                    src="/public/profile pic.jfif"
+                    src="/public/profilepic.png"
                   />{" "}
                 </div>
                 <div className="flex flex-col justify-center">
